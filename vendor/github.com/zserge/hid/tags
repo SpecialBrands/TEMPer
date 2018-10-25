@@ -1,0 +1,186 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+Address	usbdef_linux.go	/^	Address        uint8$/;"	m	struct:endpointDesc
+AltSetting	usbdef_linux.go	/^	AltSetting        uint8$/;"	m	struct:interfaceDesc
+Attributes	usbdef_linux.go	/^	Attributes         uint8$/;"	m	struct:configDesc
+Attributes	usbdef_linux.go	/^	Attributes     uint8$/;"	m	struct:endpointDesc
+Close	usb_linux.go	/^func (hid *usbDevice) Close() {$/;"	d
+Close	usb_linux.go	/^func (hid *usbDevice) Close() {$/;"	f
+Configuration	usbdef_linux.go	/^	Configuration      uint8$/;"	m	struct:configDesc
+ConfigurationValue	usbdef_linux.go	/^	ConfigurationValue uint8$/;"	m	struct:configDesc
+Ctrl	usb_linux.go	/^func (hid *usbDevice) Ctrl(rtype, req, val, index int, data []byte, t int) (int, error) {$/;"	d
+Ctrl	usb_linux.go	/^func (hid *usbDevice) Ctrl(rtype, req, val, index int, data []byte, t int) (int, error) {$/;"	f
+Data	usbdef32_linux.go	/^	Data      uint32$/;"	m	struct:usbfsIoctl
+Data	usbdef32_linux.go	/^	Data     uint32$/;"	m	struct:usbfsBulk
+Data	usbdef32_linux.go	/^	Data    uint32$/;"	m	struct:usbfsCtrl
+Data	usbdef64_linux.go	/^	Data      uint64$/;"	m	struct:usbfsIoctl
+Data	usbdef64_linux.go	/^	Data     uint64$/;"	m	struct:usbfsBulk
+Data	usbdef64_linux.go	/^	Data    uint64 \/\/ FIXME$/;"	m	struct:usbfsCtrl
+DescriptorType	usbdef_linux.go	/^	DescriptorType     uint8$/;"	m	struct:configDesc
+DescriptorType	usbdef_linux.go	/^	DescriptorType    uint8$/;"	m	struct:deviceDesc
+DescriptorType	usbdef_linux.go	/^	DescriptorType    uint8$/;"	m	struct:interfaceDesc
+DescriptorType	usbdef_linux.go	/^	DescriptorType uint8$/;"	m	struct:endpointDesc
+DescriptorType	usbdef_linux.go	/^	DescriptorType uint8$/;"	m	struct:hidReportDesc
+DevBusUsb	usbdef_linux.go	/^const DevBusUsb = "\/dev\/bus\/usb"$/;"	c
+Device	hid.go	/^type Device interface {$/;"	d
+Device	hid.go	/^type Device interface {$/;"	i
+DeviceClass	usbdef_linux.go	/^	DeviceClass       uint8$/;"	m	struct:deviceDesc
+DeviceProtocol	usbdef_linux.go	/^	DeviceProtocol    uint8$/;"	m	struct:deviceDesc
+DeviceSubClass	usbdef_linux.go	/^	DeviceSubClass    uint8$/;"	m	struct:deviceDesc
+Endpoint	usbdef32_linux.go	/^	Endpoint uint32$/;"	m	struct:usbfsBulk
+Endpoint	usbdef64_linux.go	/^	Endpoint uint32$/;"	m	struct:usbfsBulk
+GetReport	usb_linux.go	/^func (hid *usbDevice) GetReport(report int) ([]byte, error) {$/;"	d
+GetReport	usb_linux.go	/^func (hid *usbDevice) GetReport(report int) ([]byte, error) {$/;"	f
+HIDReport	usb_linux.go	/^func (hid *usbDevice) HIDReport() ([]byte, error) {$/;"	d
+HIDReport	usb_linux.go	/^func (hid *usbDevice) HIDReport() ([]byte, error) {$/;"	f
+Index	usbdef32_linux.go	/^	Index   uint16$/;"	m	struct:usbfsCtrl
+Index	usbdef64_linux.go	/^	Index   uint16$/;"	m	struct:usbfsCtrl
+Info	hid.go	/^type Info struct {$/;"	d
+Info	hid.go	/^type Info struct {$/;"	s
+Info	usb_linux.go	/^func (hid *usbDevice) Info() Info {$/;"	d
+Info	usb_linux.go	/^func (hid *usbDevice) Info() Info {$/;"	f
+Interface	hid.go	/^	Interface uint8$/;"	m	struct:Info
+Interface	usbdef32_linux.go	/^	Interface uint32$/;"	m	struct:usbfsIoctl
+Interface	usbdef64_linux.go	/^	Interface uint32$/;"	m	struct:usbfsIoctl
+InterfaceClass	usbdef_linux.go	/^	InterfaceClass    uint8$/;"	m	struct:interfaceDesc
+InterfaceIndex	usbdef_linux.go	/^	InterfaceIndex    uint8$/;"	m	struct:interfaceDesc
+InterfaceProtocol	usbdef_linux.go	/^	InterfaceProtocol uint8$/;"	m	struct:interfaceDesc
+InterfaceSubClass	usbdef_linux.go	/^	InterfaceSubClass uint8$/;"	m	struct:interfaceDesc
+Interval	usbdef_linux.go	/^	Interval       uint8$/;"	m	struct:endpointDesc
+IoctlCode	usbdef32_linux.go	/^	IoctlCode uint32$/;"	m	struct:usbfsIoctl
+IoctlCode	usbdef64_linux.go	/^	IoctlCode uint32$/;"	m	struct:usbfsIoctl
+Len	usbdef32_linux.go	/^	Len      uint32$/;"	m	struct:usbfsBulk
+Len	usbdef32_linux.go	/^	Len     uint16$/;"	m	struct:usbfsCtrl
+Len	usbdef64_linux.go	/^	Len      uint32$/;"	m	struct:usbfsBulk
+Len	usbdef64_linux.go	/^	Len     uint16$/;"	m	struct:usbfsCtrl
+Length	usbdef_linux.go	/^	Length             uint8$/;"	m	struct:configDesc
+Length	usbdef_linux.go	/^	Length            uint8$/;"	m	struct:deviceDesc
+Length	usbdef_linux.go	/^	Length            uint8$/;"	m	struct:interfaceDesc
+Length	usbdef_linux.go	/^	Length         uint8$/;"	m	struct:endpointDesc
+Length	usbdef_linux.go	/^	Length         uint8$/;"	m	struct:hidReportDesc
+Logger	hid.go	/^var Logger = log.New(ioutil.Discard, "hid", log.LstdFlags)$/;"	d
+Logger	hid.go	/^var Logger = log.New(ioutil.Discard, "hid", log.LstdFlags)$/;"	v
+ManufacturerIndex	usbdef_linux.go	/^	ManufacturerIndex uint8$/;"	m	struct:deviceDesc
+MaxPacketSize	usbdef_linux.go	/^	MaxPacketSize     uint8$/;"	m	struct:deviceDesc
+MaxPacketSize	usbdef_linux.go	/^	MaxPacketSize  uint16$/;"	m	struct:endpointDesc
+MaxPower	usbdef_linux.go	/^	MaxPower           uint8$/;"	m	struct:configDesc
+NumConfigurations	usbdef_linux.go	/^	NumConfigurations uint8$/;"	m	struct:deviceDesc
+NumEndpoints	usbdef_linux.go	/^	NumEndpoints      uint8$/;"	m	struct:interfaceDesc
+NumInterfaces	usbdef_linux.go	/^	NumInterfaces      uint8$/;"	m	struct:configDesc
+Number	usbdef_linux.go	/^	Number            uint8$/;"	m	struct:interfaceDesc
+Open	usb_linux.go	/^func (hid *usbDevice) Open() (err error) {$/;"	d
+Open	usb_linux.go	/^func (hid *usbDevice) Open() (err error) {$/;"	f
+Product	hid.go	/^	Product  uint16$/;"	m	struct:Info
+Product	usbdef_linux.go	/^	Product           uint16$/;"	m	struct:deviceDesc
+ProductIndex	usbdef_linux.go	/^	ProductIndex      uint8$/;"	m	struct:deviceDesc
+Protocol	hid.go	/^	Protocol uint8$/;"	m	struct:Info
+Read	usb_linux.go	/^func (hid *usbDevice) Read(size int, timeout time.Duration) ([]byte, error) {$/;"	d
+Read	usb_linux.go	/^func (hid *usbDevice) Read(size int, timeout time.Duration) ([]byte, error) {$/;"	f
+Req	usbdef32_linux.go	/^	Req     uint8$/;"	m	struct:usbfsCtrl
+Req	usbdef64_linux.go	/^	Req     uint8$/;"	m	struct:usbfsCtrl
+ReqType	usbdef32_linux.go	/^	ReqType uint8$/;"	m	struct:usbfsCtrl
+ReqType	usbdef64_linux.go	/^	ReqType uint8$/;"	m	struct:usbfsCtrl
+Revision	hid.go	/^	Revision uint16$/;"	m	struct:Info
+Revision	usbdef_linux.go	/^	Revision          uint16$/;"	m	struct:deviceDesc
+SerialIndex	usbdef_linux.go	/^	SerialIndex       uint8$/;"	m	struct:deviceDesc
+SetReport	usb_linux.go	/^func (hid *usbDevice) SetReport(report int, data []byte) error {$/;"	d
+SetReport	usb_linux.go	/^func (hid *usbDevice) SetReport(report int, data []byte) error {$/;"	f
+SubClass	hid.go	/^	SubClass uint8$/;"	m	struct:Info
+Timeout	usbdef32_linux.go	/^	Timeout  uint32$/;"	m	struct:usbfsBulk
+Timeout	usbdef32_linux.go	/^	Timeout uint32$/;"	m	struct:usbfsCtrl
+Timeout	usbdef64_linux.go	/^	Timeout  uint32$/;"	m	struct:usbfsBulk
+Timeout	usbdef64_linux.go	/^	Timeout uint32$/;"	m	struct:usbfsCtrl
+TotalLength	usbdef_linux.go	/^	TotalLength        uint16$/;"	m	struct:configDesc
+USB	usbdef_linux.go	/^	USB               uint16$/;"	m	struct:deviceDesc
+USBDEVFS_BULK	usbdef32_linux.go	/^	USBDEVFS_BULK    = 0xc0105502$/;"	c
+USBDEVFS_BULK	usbdef64_linux.go	/^	USBDEVFS_BULK    = 0xc0185502$/;"	c
+USBDEVFS_CLAIM	usbdef_linux.go	/^	USBDEVFS_CLAIM      = 0x8004550f$/;"	c
+USBDEVFS_CONNECT	usbdef_linux.go	/^	USBDEVFS_CONNECT    = 0x5517$/;"	c
+USBDEVFS_CONTROL	usbdef32_linux.go	/^	USBDEVFS_CONTROL = 0xc0105500$/;"	c
+USBDEVFS_CONTROL	usbdef64_linux.go	/^	USBDEVFS_CONTROL = 0xc0185500$/;"	c
+USBDEVFS_DISCONNECT	usbdef_linux.go	/^	USBDEVFS_DISCONNECT = 0x5516$/;"	c
+USBDEVFS_IOCTL	usbdef32_linux.go	/^	USBDEVFS_IOCTL   = 0xc00c5512$/;"	c
+USBDEVFS_IOCTL	usbdef64_linux.go	/^	USBDEVFS_IOCTL   = 0xc0105512$/;"	c
+USBDEVFS_RELEASE	usbdef_linux.go	/^	USBDEVFS_RELEASE    = 0x80045510$/;"	c
+UsbDescTypeConfig	usbdef_linux.go	/^	UsbDescTypeConfig    = 2$/;"	c
+UsbDescTypeDevice	usbdef_linux.go	/^	UsbDescTypeDevice    = 1$/;"	c
+UsbDescTypeEndpoint	usbdef_linux.go	/^	UsbDescTypeEndpoint  = 5$/;"	c
+UsbDescTypeInterface	usbdef_linux.go	/^	UsbDescTypeInterface = 4$/;"	c
+UsbDescTypeReport	usbdef_linux.go	/^	UsbDescTypeReport    = 33$/;"	c
+UsbDescTypeString	usbdef_linux.go	/^	UsbDescTypeString    = 3$/;"	c
+UsbHidClass	usbdef_linux.go	/^const UsbHidClass = 3$/;"	c
+UsbWalk	usb_linux.go	/^func UsbWalk(cb func(Device)) {$/;"	d
+UsbWalk	usb_linux.go	/^func UsbWalk(cb func(Device)) {$/;"	f
+Value	usbdef32_linux.go	/^	Value   uint16$/;"	m	struct:usbfsCtrl
+Value	usbdef64_linux.go	/^	Value   uint16$/;"	m	struct:usbfsCtrl
+Vendor	hid.go	/^	Vendor   uint16$/;"	m	struct:Info
+Vendor	usbdef_linux.go	/^	Vendor            uint16$/;"	m	struct:deviceDesc
+Write	usb_linux.go	/^func (hid *usbDevice) Write(data []byte, timeout time.Duration) (int, error) {$/;"	d
+Write	usb_linux.go	/^func (hid *usbDevice) Write(data []byte, timeout time.Duration) (int, error) {$/;"	f
+_	usbdef64_linux.go	/^	_        uint32$/;"	m	struct:usbfsBulk
+_	usbdef64_linux.go	/^	_       uint32$/;"	m	struct:usbfsCtrl
+cast	usb_linux.go	/^func cast(b []byte, to interface{}) error {$/;"	d
+cast	usb_linux.go	/^func cast(b []byte, to interface{}) error {$/;"	f
+claim	usb_linux.go	/^func (hid *usbDevice) claim() error {$/;"	d
+claim	usb_linux.go	/^func (hid *usbDevice) claim() error {$/;"	f
+completer	example/main.go	/^	var completer = readline.NewPrefixCompleter($/;"	d
+configDesc	usbdef_linux.go	/^type configDesc struct {$/;"	d
+configDesc	usbdef_linux.go	/^type configDesc struct {$/;"	s
+ctrl	usb_linux.go	/^func (hid *usbDevice) ctrl(rtype, req, val, index int, data []byte, t int) (int, error) {$/;"	d
+ctrl	usb_linux.go	/^func (hid *usbDevice) ctrl(rtype, req, val, index int, data []byte, t int) (int, error) {$/;"	f
+device	usb_linux.go	/^		var device *usbDevice$/;"	d
+deviceDesc	usbdef_linux.go	/^type deviceDesc struct {$/;"	d
+deviceDesc	usbdef_linux.go	/^type deviceDesc struct {$/;"	s
+endpointDesc	usbdef_linux.go	/^type endpointDesc struct {$/;"	d
+endpointDesc	usbdef_linux.go	/^type endpointDesc struct {$/;"	s
+epIn	usb_linux.go	/^	epIn  int$/;"	m	struct:usbDevice
+epOut	usb_linux.go	/^	epOut int$/;"	m	struct:usbDevice
+f	usb_linux.go	/^	f *os.File$/;"	m	struct:usbDevice
+hid	hid.go	/^package hid$/;"	p
+hid	usb_linux.go	/^package hid$/;"	p
+hid	usbdef32_linux.go	/^package hid$/;"	p
+hid	usbdef64_linux.go	/^package hid$/;"	p
+hid	usbdef_linux.go	/^package hid$/;"	p
+hidReportDesc	usbdef_linux.go	/^type hidReportDesc struct {$/;"	d
+hidReportDesc	usbdef_linux.go	/^type hidReportDesc struct {$/;"	s
+info	usb_linux.go	/^	info Info$/;"	m	struct:usbDevice
+inputPacketSize	usb_linux.go	/^	inputPacketSize  uint16$/;"	m	struct:usbDevice
+interfaceDesc	usbdef_linux.go	/^type interfaceDesc struct {$/;"	d
+interfaceDesc	usbdef_linux.go	/^type interfaceDesc struct {$/;"	s
+intr	usb_linux.go	/^func (hid *usbDevice) intr(ep int, data []byte, t int) (int, error) {$/;"	d
+intr	usb_linux.go	/^func (hid *usbDevice) intr(ep int, data []byte, t int) (int, error) {$/;"	f
+ioctl	usb_linux.go	/^func (hid *usbDevice) ioctl(n uint32, arg interface{}) (int, error) {$/;"	d
+ioctl	usb_linux.go	/^func (hid *usbDevice) ioctl(n uint32, arg interface{}) (int, error) {$/;"	f
+main	example/main.go	/^func main() {$/;"	d
+main	example/main.go	/^func main() {$/;"	f
+main	example/main.go	/^package main$/;"	p
+outputPacketSize	usb_linux.go	/^	outputPacketSize uint16$/;"	m	struct:usbDevice
+path	usb_linux.go	/^	path string$/;"	m	struct:usbDevice
+release	usb_linux.go	/^func (hid *usbDevice) release() error {$/;"	d
+release	usb_linux.go	/^func (hid *usbDevice) release() error {$/;"	f
+shell	example/main.go	/^func shell(device hid.Device) {$/;"	d
+shell	example/main.go	/^func shell(device hid.Device) {$/;"	f
+slicePtr	usbdef32_linux.go	/^func slicePtr(b []byte) uint32 {$/;"	d
+slicePtr	usbdef32_linux.go	/^func slicePtr(b []byte) uint32 {$/;"	f
+slicePtr	usbdef64_linux.go	/^func slicePtr(b []byte) uint64 {$/;"	d
+slicePtr	usbdef64_linux.go	/^func slicePtr(b []byte) uint64 {$/;"	f
+usbDevice	usb_linux.go	/^type usbDevice struct {$/;"	d
+usbDevice	usb_linux.go	/^type usbDevice struct {$/;"	s
+usbfsBulk	usbdef32_linux.go	/^type usbfsBulk struct {$/;"	d
+usbfsBulk	usbdef32_linux.go	/^type usbfsBulk struct {$/;"	s
+usbfsBulk	usbdef64_linux.go	/^type usbfsBulk struct {$/;"	d
+usbfsBulk	usbdef64_linux.go	/^type usbfsBulk struct {$/;"	s
+usbfsCtrl	usbdef32_linux.go	/^type usbfsCtrl struct {$/;"	d
+usbfsCtrl	usbdef32_linux.go	/^type usbfsCtrl struct {$/;"	s
+usbfsCtrl	usbdef64_linux.go	/^type usbfsCtrl struct {$/;"	d
+usbfsCtrl	usbdef64_linux.go	/^type usbfsCtrl struct {$/;"	s
+usbfsIoctl	usbdef32_linux.go	/^type usbfsIoctl struct {$/;"	d
+usbfsIoctl	usbdef32_linux.go	/^type usbfsIoctl struct {$/;"	s
+usbfsIoctl	usbdef64_linux.go	/^type usbfsIoctl struct {$/;"	d
+usbfsIoctl	usbdef64_linux.go	/^type usbfsIoctl struct {$/;"	s
+walker	usb_linux.go	/^func walker(path string, cb func(Device)) error {$/;"	d
+walker	usb_linux.go	/^func walker(path string, cb func(Device)) error {$/;"	f
